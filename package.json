@@ -1,0 +1,28 @@
+{
+  "name": "mars-terraformus",
+  "version": "1.0.0",
+  "description": "Finite state machine representation of Terraforming Mars board game",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "run": "node build/index.js",
+    "start": "npm run build && npm run run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/objobject/mars-terraformus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/objobject/mars-terraformus/issues"
+  },
+  "homepage": "https://github.com/objobject/mars-terraformus#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "xstate": "^4.35.0"
+  }
+}
